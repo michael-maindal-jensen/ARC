@@ -465,7 +465,7 @@ def process_file(file_path, do_plot=False, do_hypo=False, e_sel=None):
   sum_densities = 0.0
   for e in range(0,num_train_examples):
     if e_sel is not None:
-      if e != e_you:
+      if e != e_abeL:
         continue
     example_input = train[e]['input']
     #print('example_input', example_input)
