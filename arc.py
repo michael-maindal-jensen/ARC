@@ -89,7 +89,7 @@ def non_max_suppression(img, D):
                     Z[i,j] = 0
 
             except IndexError as e:
-                pass
+                Sector
     
     return Z
 
